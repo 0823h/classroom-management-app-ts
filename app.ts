@@ -20,6 +20,6 @@ mongoose
 app.use(express.json());
 app.use("/api/students", studentRouter);
 app.use("/api/classes", classRouter);
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log(`App running on port ${process.env.PORT}`);
 });
