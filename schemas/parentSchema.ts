@@ -1,4 +1,4 @@
-import joi from "Joi";
+import joi from "joi";
 class JoiSchema {
   createSchema: joi.ObjectSchema = joi.object({
     name: joi
